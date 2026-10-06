@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int insertionSort(int a[], int n){
+void insertionSort(int a[], int n){
     for(int i = 0; i< n; i++){
         int x = a[i];
         int j = i-1;
